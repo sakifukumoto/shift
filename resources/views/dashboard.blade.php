@@ -15,7 +15,9 @@
                 <div class="p-6 text-gray-900">
                   <x-primary-button>希望休の入力</x-primary-button>
                 </div>
+                <div id='calendar'></div>
+                  @vite(['resources/css/app.css', 'resources/js/calender.js'])
+              </div>
             </div>
-        </div>
-    </div>
-</x-app-layout>
+          </div>
+        </x-app-layout>
