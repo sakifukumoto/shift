@@ -12,6 +12,8 @@
                 {{ Auth::user()->name }}さんの希望休の入力画面です
                 {{-- コンポーネントの使用:primary-button.blade.php --}}
               </div>
+              <div id='calendar'></div>
+                @vite(['resources/css/app.css', 'resources/js/calender.js'])
               {{-- <div class="p-6 text-gray-900">
                 <x-primary-button>希望休の入力</x-primary-button>
               </div> --}}
